@@ -1,0 +1,3 @@
+# Pin iojs on this version.
+# You can use wildcards here. 
+iojs_version: '1.5.*'
