@@ -10,6 +10,7 @@ Vagrant machines are provided to produce a boxed install of io.js or a VM for in
 Supports
 --------
 Supported io.js versions:
+- io.js 2.x
 - io.js 1.x
 
 Supported targets:
@@ -61,6 +62,12 @@ Still to do
 
 Changelog
 ---------
+### 0.2.0
+- Using iojs 2.x by default.
+
+### 0.1.1
+- Supporting debian repositories above 1.x.
+
 ### 0.1.0
 Initial version.
 
