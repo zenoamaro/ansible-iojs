@@ -27,7 +27,7 @@
   when: ansible_os_family == 'Debian'
   sudo: yes
   apt_repository:
-    repo: "deb https://deb.nodesource.com/iojs_1.x {{ansible_distribution_release}} main"
+    repo: "deb https://deb.nodesource.com/iojs_{{iojs_version.split('.').0}}.x {{ansible_distribution_release}} main"
   tags:
     - deps
     - web
